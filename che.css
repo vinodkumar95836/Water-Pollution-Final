@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0dfec;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*.fevicon{
+    border: 1px solid white;
+    border-radius: 500px;
+}*/
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border-color: white;
+    border-radius: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(180, 130, 184);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list li a:hover {
+    color: red;
+}
+
+
+.rightnav {
+    /*background-color: aqua;*/
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(images/image8.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+    text-align: justify;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 35%;
+
+}
+
+.secondhalf img {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.text-small {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+
+.secright {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+    text-align: justify;
+}
+
+.paras {
+    padding: 0px 65px;
+    text-align: justify;
+}
+
+.paras a {
+    text-decoration: none;
+}
+
+.paras a :hover {
+    color: red;
+}
+
+.sectiontag {
+    padding: 16px 0px;
+    text-align: justify;
+}
+
+.sectionsubtag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.thumbnail img {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: #ece5dd;
+    height: 630px;
+}
+
+.text-center {
+    padding-top: 10px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input {
+    margin: 14px 0px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid rgb(143, 143, 184);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*.btn-sub{
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+}*/
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(52, 43, 40);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
